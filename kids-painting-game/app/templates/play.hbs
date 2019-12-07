@@ -1,0 +1,16 @@
+<div class="pin fixed flex-col">
+  <div class="flex-shrink flex bg-black h-16">
+    <div class="flex-1 bg-yellow">Left</div>
+    <div class="flex-1 bg-pink"> 
+      <ColorPicker @color={{color}} @onchange{{action (mut color)}} />
+    </div>
+  </div>
+  <div class="flex-1 flex">
+    <div class="flex-1 border-r-2 border-gray-dark border-dashed p-4">
+      grid
+    </div>
+    <div class="flex-1 p-4">
+      grid
+    </div>
+  </div>
+</div>
